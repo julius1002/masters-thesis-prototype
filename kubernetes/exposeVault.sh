@@ -1,0 +1,1 @@
+minikube service hc-vault-service -n hc --url

@@ -1,0 +1,20 @@
+input {
+ display:block
+}
+
+input + input {
+margin-top:2em;
+}
+
+div {
+margin: 0 auto;
+width: 25%;
+}
+
+ul {
+list-style-type:none
+}
+
+button {
+margin-top:1em
+}

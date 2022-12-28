@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: thesisPrototype
+  server:
+    cors:
+      enabled: false
+    ssl:
+      enabled: false # https://docs.micronaut.io/latest/guide/#https
+      buildSelfSigned: true
+  router:
+    static-resources:
+      main:
+        paths: classpath:static
+        mapping: /static/**
